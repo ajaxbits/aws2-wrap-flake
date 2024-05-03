@@ -1,0 +1,27 @@
+{
+  "fetchPipMetadata": {
+    "sources": {
+      "aws2-wrap": {
+        "sha256": "824b9d9527a0b3fb6359429d9b1db12cb6b2de815fa72aff41fd35dad4a6daba",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/42/bd/323faf593629df069a08221a3c7cf099c56a7a0a150ebfce03c2c8b45275/aws2_wrap-1.4.0-py3-none-any.whl",
+        "version": "1.4.0"
+      },
+      "psutil": {
+        "sha256": "daecbcbd29b289aac14ece28eca6a3e60aa361754cf6da3dfb20d4d32b6c7f57",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/9e/cb/e4b83c27eea66bc255effc967053f6fce7c14906dd9b43a348ead9f0cfea/psutil-5.9.6-cp38-abi3-macosx_11_0_arm64.whl",
+        "version": "5.9.6"
+      }
+    },
+    "targets": {
+      "default": {
+        "aws2-wrap": [
+          "psutil"
+        ],
+        "psutil": []
+      }
+    }
+  },
+  "invalidationHash": "36b37f01166470ebc88c4d2dbfde71629f336b5dbbf258012031b6c8dfca3f47"
+}
