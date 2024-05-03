@@ -15,9 +15,8 @@
   version = "1.4.0";
 
   buildPythonPackage = {
-    pythonImportsCheck = [
-      config.name
-    ];
+    format = "wheel";
+    pythonImportsCheck = [(builtins.replaceStrings ["-"] [""] config.name)];
   };
 
   pip = {
